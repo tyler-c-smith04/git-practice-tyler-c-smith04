@@ -1,0 +1,147 @@
+  283  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  287  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  766  git --version
+  767  git config --global use.name "Tyler Smith"
+  768  git config --global user.email "rslfants@byu.edu"
+  769  git config --global core.editor "code --wait"
+  770  git config --global init.defaultBrach main
+  771  git --version
+  772  $ brew install git
+  773  brew install git
+  774  git --version
+  775  git --version
+  776  git --version
+  777  git config --global use.name "Tyler Smith"
+  778  git config --global user.email "rslfants@byu.edu"
+  779  git config --global core.editor "code --wait"
+  780  git config --global init.defaultBrach main
+  787  git config --list
+  789  git config --global user.email "tyler.c.smith04@gmail.com"
+  790  git --list
+  791  git config --list
+  792  git config --list
+  828  git clone git@github.com:tyler-c-smith04/KaggleBikeShare.git
+  837  git status
+  838  git add BikeShareEDA.R sampleSubmission.csv test.csv train.csv
+  839  git status
+  840  git commit -m "Initially adding these files"
+  841  git status
+  842  git push
+  844  git pull
+  846  git status
+  847  git commit
+  848  git push
+  849  git commit -m "Updated r file"
+  850  git push
+  851  git status
+  852  git commit -a
+  855  git status
+  859  git commit -m "Updated R file"
+  860  git commit -a
+  862  git commit -m "Updated R File"
+  863  git push
+  864  git push origin
+  866  git status
+  867  git add BikeShareEDA.R
+  869  git commit -m "Updated R File"
+  871  git push
+  883  git add .
+  884  git commit -m "update R file"
+  885  git push
+  888  mk dir git_practice
+  889  mkdir git_practice
+  891  cd Desktop/git_practice
+  892  git init
+  894  cd .git
+  900  git status
+  903  git status
+  904  git add .
+  905  git status
+  906  git commit -m 'create new files'
+  907  git status
+  908  git log
+  910  git status
+  911  git commit file_1.txt
+  912  git commit file_1.txt -m 'first changes'
+  913  git status
+  914  git commit file_2.txt -m 'first changes'
+  915  git status
+  916  git log
+  917  git status
+  918  git add Readme.md
+  919  git status
+  920  git commit Readme.md -m 'created a Readme'
+  926  git add .
+  927  git status
+  928  git commit -m 'clean data'
+  929  git push
+  931  cd Desktop/git_practice
+  936  cd git_practice
+  944  git status
+  945  git add .gitignore
+  946  git commit .gitignore -m 'create .gitignore'
+  948  git status
+  949  git status
+  950  git status
+  951  git branch features
+  952  git status
+  953  git branch
+  954  git branch features
+  955  git branch --help
+  956  git checkout features
+  957  git status
+  958  git switch --help
+  959  git switch master
+  960  git switch features
+  961  git log
+  963  git add new_features.txt
+  964  git commit new_features.txt -m 'add empty file'
+  965  git commit new_features.txt -m 'adding text'
+  966  git switch master
+  969  git commit file_1.txt -m 'add line of text'
+  970  git merge --help
+  971  git merge features
+  972  git commit 
+  973  git commit -m 'merging features into master'
+  976  cd Desktop/git_practice
+  980  git log
+  982  git commit new_features.txt
+  983  git switch features
+  985  git commit new_features.txt -m 'change text'
+  986  git switch master
+  988  git status
+  989  git switch features
+  991  git status
+  992  git commit new_features.txt -m 'change text'
+  993  git switch master
+  994  git merge features
+  995  git commit
+  996  git branch -d features
+  997  git branch
+  998  git remote add origin git@github.com:tyler-c-smith04/git-practice-tyler-c-smith04.git
+  999  git push -u origin master
+ 1003  git clone git@github.com:tyler-c-smith04/git-practice-justinross102.git
+ 1005  git branch feature tyler-c-smith04
+ 1007  git branch feature-tyler-c-smith04
+ 1008  git branch
+ 1010  git status
+ 1011  git add .
+ 1012  git status
+ 1013  git commit whatsup.txt -m 'new file'
+ 1014  git push origin feature-tyler-c-smith04
+ 1015  git status
+ 1017  git add .
+ 1018  git commit -m 'whoops'
+ 1019  git push origin feature-tyler-c-smith04
+ 1020  git status
+ 1021  git push origin master
+ 1022  git push origin main
+ 1023  git switch feature-tyler-c-smith04
+ 1024  git branch
+ 1031  git add .
+ 1032  git commit -m 'go astros file'
+ 1033  git push origin feature-tyler-c-smith04
+ 1035  cd git_practice
+ 1036  git pull
+ 1037  git log --oneline > gitlog.txt
+ 1038  history | grep git > history.txt

@@ -1,0 +1,15 @@
+50d0f3c Merge pull request #1 from justinross102/feature-justinross102
+165e83e add message.txt
+fbdd721 Merge branch 'features'
+eaf0a06 change text
+7805c23 change text
+ca5002c changed new features
+98b86f5 merging features into master
+78a0027 add line of text
+ae2cf40 adding text
+8bf09f4 add empty file
+539dda9 create .gitignore
+a958242 created a Readme
+8a15f38 first changes
+0f52045 first changes
+023f51c create new files
